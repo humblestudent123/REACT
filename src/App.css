@@ -1,16 +1,109 @@
+
+
+
 body {
-  background-color: rgb(25, 25, 25);
-  color: rgb(148, 149, 152);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  color: white;
+  font-family: Arial, sans-serif;
+}
 
+.main {
+  display: flex;
+  min-height: 100vh;
+}
 
-#image {
-  padding: 200px;
-  padding-left: 200px;
-  width: 500px;
-  height: 180px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
- 
+.left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111;
+}
+
+.big-logo {
+  font-size: 10vw;
+  color: gray;
+  margin: 0;
+}
+
+.right {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #111;
+}
+
+.right h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.right h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.right p {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.auth-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.auth-buttons button {
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.google {
+  background-color: white;
+  color: black;
+}
+
+.facebook {
+  background-color: #e9f1fb;
+  color: black;
+}
+
+.start-now {
+  margin-top: 20px;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #1a2b8b;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.or {
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+}
+
+.terms {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #666;
+}
+
+.terms a {
+  color: #999;
+  text-decoration: none;
 }
